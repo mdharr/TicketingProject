@@ -1,0 +1,83 @@
+### Maven ###
+**/target/
+!**/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+**/.mvn/timing.properties
+
+### Gradle ###
+**/.gradle
+**/build/
+!**/src/**/build/
+
+### IntelliJ IDEA ###
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+
+### Eclipse ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+### VS Code ###
+**/.vscode/
+
+### Properties files with sensitive data ###
+**/application-dev.properties
+**/application-prod.properties
+**/application-local.properties
+**/application-*.yml
+!**/application-example.properties
+!**/application-example.yml
+!**/application.properties
+!**/application.yml
+
+### Logs ###
+**/logs/
+**/*.log
+
+### OS generated files ###
+**/.DS_Store
+**/.DS_Store?
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+### Docker ###
+**/.env
+**/docker-compose.override.yml
+
+### Kafka ###
+**/kafka-data/
+
+### Node (in case any microservice has a Node frontend) ###
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/yarn-debug.log
+**/package-lock.json
+
+### JVM crash logs ###
+**/hs_err_pid*
+**/replay_pid*
