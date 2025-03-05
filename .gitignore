@@ -81,3 +81,6 @@ buildNumber.properties
 ### JVM crash logs ###
 **/hs_err_pid*
 **/replay_pid*
+
+### Database volume data ###
+**/volume-data/
